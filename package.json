@@ -1,0 +1,35 @@
+{
+  "name": "lumpia",
+  "version": "0.0.1",
+  "description": "Simple ExpressJS Framework",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "db:migrate": "node database/migrate.js migrate",
+    "db:fresh": "node database/migrate.js fresh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galeka99/lumpia.git"
+  },
+  "keywords": [
+    "framework",
+    "api",
+    "web",
+    "express"
+  ],
+  "author": "Galang Ekayudha Permana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galeka99/lumpia/issues"
+  },
+  "homepage": "https://github.com/galeka99/lumpia#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
